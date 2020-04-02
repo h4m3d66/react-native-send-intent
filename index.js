@@ -91,6 +91,9 @@ var SendIntentAndroid = {
     openAppWithData(packageName, dataUri, mimeType, extras) {
         return RNSendIntentAndroid.openAppWithData(packageName, dataUri, mimeType, extras || {});
     },
+    openAppWithDataActionEdit(packageName, dataUri, mimeType, extras) {
+        return RNSendIntentAndroid.openAppWithData(packageName, dataUri, mimeType, extras || {});
+    },
     /**
      * This method follows the chrome intent syntax: https://developer.chrome.com/multidevice/android/intents.
      *
