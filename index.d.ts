@@ -65,6 +65,7 @@ declare namespace SendIntentAndroid {
   const gotoHomeScreen: () => void
   const openApp: (packageName: string, extras: { [index: string]: string }) => void
   const openAppWithData: (packageName: string, dataUri: string, mimeType?: string, extras?: { [index: string]: string }) => Promise<boolean>
+  const openAppWithDataActionEdit: (packageName: string, dataUri: string, mimeType?: string, extras?: { [index: string]: string }) => Promise<boolean>
   const openChromeIntent: (dataUri: string) => Promise<boolean>
   const openDownloadManager: () => void
   const openFileChooser: (options: FileChooserOptions, title: string) => void
